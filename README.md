@@ -7,7 +7,7 @@ In the world of Artificial Intelligence, the biggest hurdle is often the lack of
 The Solution: A Self-Generating AI Pipeline
 Instead of manually collecting data, we engineered a Synthetic Data Pipeline. We used Generative AI to create the entire supermarket inventory from scratch, effectively teaching our discriminative models (Computer Vision) to "see" products that don't even exist in the real world.
 
-How It Works (The "God Mode" Cycle)
+How It Works :
 The system operates in three distinct phases:
 
 1. Creation Phase (Generative AI)
