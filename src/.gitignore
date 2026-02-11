@@ -1,0 +1,12 @@
+# Models & Large Files
+*.pt
+*.pth
+models/
+
+# Environment & Cache
+venv/
+__pycache__/
+.env
+
+# Database Storage
+qdrant_storage/

@@ -1,0 +1,94 @@
+{
+  "best_global_step": null,
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 0.6666666666666666,
+  "eval_steps": 500,
+  "global_step": 30,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "entropy": 1.9307493448257447,
+      "epoch": 0.1111111111111111,
+      "grad_norm": 1.3776257038116455,
+      "learning_rate": 0.00018,
+      "loss": 2.3139579772949217,
+      "mean_token_accuracy": 0.5375051334500313,
+      "num_tokens": 1898.0,
+      "step": 5
+    },
+    {
+      "entropy": 1.864607572555542,
+      "epoch": 0.2222222222222222,
+      "grad_norm": 1.3149874210357666,
+      "learning_rate": 0.00014666666666666666,
+      "loss": 2.000074005126953,
+      "mean_token_accuracy": 0.558731360733509,
+      "num_tokens": 3328.0,
+      "step": 10
+    },
+    {
+      "entropy": 2.0129832684993745,
+      "epoch": 0.3333333333333333,
+      "grad_norm": 1.1773587465286255,
+      "learning_rate": 0.00011333333333333334,
+      "loss": 1.8760360717773437,
+      "mean_token_accuracy": 0.5909394904971123,
+      "num_tokens": 4685.0,
+      "step": 15
+    },
+    {
+      "entropy": 2.0396920800209046,
+      "epoch": 0.4444444444444444,
+      "grad_norm": 1.4874597787857056,
+      "learning_rate": 8e-05,
+      "loss": 1.9096906661987305,
+      "mean_token_accuracy": 0.5998156175017357,
+      "num_tokens": 6121.0,
+      "step": 20
+    },
+    {
+      "entropy": 1.8620722949504853,
+      "epoch": 0.5555555555555556,
+      "grad_norm": 1.455452561378479,
+      "learning_rate": 4.666666666666667e-05,
+      "loss": 1.5380024909973145,
+      "mean_token_accuracy": 0.6726618796586991,
+      "num_tokens": 7383.0,
+      "step": 25
+    },
+    {
+      "entropy": 2.1396148264408112,
+      "epoch": 0.6666666666666666,
+      "grad_norm": 1.0463179349899292,
+      "learning_rate": 1.3333333333333333e-05,
+      "loss": 1.9097623825073242,
+      "mean_token_accuracy": 0.6054419070482254,
+      "num_tokens": 9281.0,
+      "step": 30
+    }
+  ],
+  "logging_steps": 5,
+  "max_steps": 30,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 50,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 57670581325824.0,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}
